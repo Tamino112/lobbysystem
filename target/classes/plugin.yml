@@ -1,0 +1,24 @@
+name: LobbyPlugin
+main: de.vexo.lobbysystem.LobbyPlugin
+version: 1.0.0
+api-version: '1.21'
+author: Vexo5566
+description: Lobby plugin mit Navigator, Spawn, SilentLobby, Extras, Schutzschild, Profil, YT Items
+
+commands:
+  setspawn:
+    description: Setzt den Lobby-Spawn
+    usage: /setspawn
+    permission: lobby.admin
+  spawn:
+    description: Teleportiert dich zum Lobby-Spawn
+    usage: /spawn
+    permission: lobby.spawn
+  silentlobby:
+    description: Aktiviert oder deaktiviert die SilentLobby
+    usage: /silentlobby
+    permission: lobby.admin
+  lobbyreload:
+    description: Lädt die Config neu
+    usage: /lobbyreload
+    permission: lobby.admin

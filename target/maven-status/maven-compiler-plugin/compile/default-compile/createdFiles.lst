@@ -1,0 +1,16 @@
+de\vexo\lobbysystem\listeners\FoodListener.class
+de\vexo\lobbysystem\listeners\ItemDropListener.class
+de\vexo\lobbysystem\LobbyPlugin.class
+de\vexo\lobbysystem\gui\NavigatorGUI.class
+de\vexo\lobbysystem\gui\ProfileGUI.class
+de\vexo\lobbysystem\commands\SilentLobbyCommand.class
+de\vexo\lobbysystem\commands\ReloadCommand.class
+de\vexo\lobbysystem\util\ItemBuilder.class
+de\vexo\lobbysystem\listeners\GUIListener.class
+de\vexo\lobbysystem\listeners\JoinQuitListener.class
+de\vexo\lobbysystem\listeners\CoreListener.class
+de\vexo\lobbysystem\gui\ExtrasGUI.class
+de\vexo\lobbysystem\commands\SetSpawnCommand.class
+de\vexo\lobbysystem\listeners\CoreListener$1.class
+de\vexo\lobbysystem\commands\SpawnCommand.class
+de\vexo\lobbysystem\listeners\DamageListener.class

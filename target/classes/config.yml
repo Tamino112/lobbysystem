@@ -1,0 +1,71 @@
+# LobbyPlugin von Vexo5566
+
+spawn:
+  world: "world"
+  x: 0
+  y: 100
+  z: 0
+  yaw: 0
+  pitch: 0
+
+lobby-world: world
+
+silent-lobby-enabled: true
+
+navigator:
+  title: "&bNavigator"
+  slots:
+    "11":
+      material: DIAMOND_SWORD
+      name: "&cSkyWars"
+      lore: ["&7Kämpfe gegen andere Spieler!"]
+      type: "server"
+      target: "skywars"    # BungeeCord/Velocity Server-Name
+
+    "13":
+      material: GRASS_BLOCK
+      name: "&aSurvival"
+      lore: ["&7Überlebe in der Survival-Welt."]
+      type: "world"
+      target: "survival"
+
+    "15":
+      material: NETHER_STAR
+      name: "&bSpawn"
+      lore: ["&7Teleportiert dich zum Spawn."]
+      type: "spawn"
+
+    "21":
+      material: COMMAND_BLOCK
+      name: "&eBedWars"
+      lore: ["&7Führe den Befehl /warp bedwars aus"]
+      type: "command"
+      target: "warp bedwars"
+
+
+items:
+  give-on-join: true
+  navigator-slot: 0
+  hideplayers-slot: 1
+  extras-slot: 4
+  shield-slot: 7
+  profile-slot: 8
+
+messages:
+  prefix: "&8[&bLobby&8]&r "
+  no-perm: "&cDazu hast du keine Rechte."
+  reloaded: "&aKonfiguration neu geladen."
+  silent-on: "&7SilentLobby: &aaktiv"
+  silent-off: "&7SilentLobby: &cdeaktiv"
+  players-hidden: "&7Spieler: &cversteckt"
+  players-shown: "&7Spieler: &agezeigt"
+  shield-on: "&7Schutzschild: &aaktiv"
+  shield-off: "&7Schutzschild: &cdeaktiv"
+  speed-on: "&7Speed: &aaktiv"
+  speed-off: "&7Speed: &cdeaktiv"
+  jump-on: "&7Sprungkraft: &aaktiv"
+  jump-off: "&7Sprungkraft: &cdeaktiv"
+  spawn-set: "&aSpawn gesetzt!"
+  spawn-not-set: "&cSpawn nicht gesetzt."
+  teleport-spawn: "&7Teleportiere dich zum Spawn..."
+  chat-disabled: "&7Chat ist hier deaktiviert."
